@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800;900&family=Mukta:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+.ff_poppins {
+  font-family: "Poppins", sans-serif;
+}
+.ff_exo {
+  font-family: "Exo", sans-serif;
+}
+.ff_montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.ff_mukta {
+  font-family: "Mukta", sans-serif;
+}
+:root {
+  --fs-xsm: 14px;
+  --fs-sm: 12px;
+  --fs-md: 16px;
+  --fs-xl: 16px;
+  --fs-3xl: 30px;
+  --fs-4x8l: 38px;
+  --fs-7xl: 38px;
+
+  /* fw */
+  --fw-extra: 800;
+
+  /* lh */
+  --lh-20: 20px;
+  --lh-27: 20px;
+  --lh-30: 30px;
+  --lh-80: 80px;
+  --lh-155: 155%;
+
+  /* clr */
+  --clr-white: #ffffff;
+  --clr-light-white: #b2b2b2;
+  --clr-blue: #1e1e1e;
+  --clr-gray: #bcb4c1;
+
+  /* bgclr */
+  --bg-black: #000000;
+  --bg-blue: #1e1e1e;
+
+  /* opacity */
+  --opicity-07: 0.7;
+}
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_4x8l {
+  font-size: var(--fs-4x8l);
+}
+.fs_7xl {
+  font-size: var(--fs-7xl);
+}
+.fw_extrabold {
+  font-weight: var(--fw-extra);
+}
+.clr_white {
+  color: var(--clr-white);
+}
+.clr_light_white {
+  color: var(--clr-light-white);
+}
+.clr_blue {
+  color: var(--clr-blue);
+}
+.clr_gray {
+  color: var(--clr-gray);
+}
+.bg_black {
+  background-color: var(--bg-black);
+}
+.bg_blue {
+  background-color: var(--bg-blue);
+}
+.lh_20 {
+  line-height: var(--lh-20);
+}
+.lh_27 {
+  line-height: var(--lh-27);
+}
+.lh_30 {
+  line-height: var(--lh-30);
+}
+.lh_80 {
+  line-height: var(--lh-80);
+}
+.lh_155 {
+  line-height: var(--lh-155);
+}
+.opacity_07 {
+  opacity: var(--opicity-07);
+}
+.transition300 {
+  transition: all 300ms linear;
+}
+.z_index-1 {
+  z-index: -1;
+}
+.z_index0 {
+  z-index: 0;
+}
+.z_index1 {
+  z-index: 1;
+}
+.z_index2 {
+  z-index: 2;
+}
+.z_index3 {
+  z-index: 3;
+}
+.z_index4 {
+  z-index: 4;
+}
+.z_index5 {
+  z-index: 5;
+}
+/*  */
+.Nav_links_common {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: var(--fs-sm);
+  line-height: 20px;
+  color: white;
+}
+.crypto_main_btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--fs-xl);
+  line-height: 155%;
+  text-align: center;
+  color: white;
+  padding: 12px 30px;
+  background: linear-gradient(90deg, #6601cd 0%, #cb2aef 100%);
+  border-radius: 78px;
+  border: 1px solid transparent;
+  background-size: 110%;
+  background-position: center;
+  transition: all 0.2s linear;
+}
+.crypto_main_btn:hover {
+  background: transparent;
+  border-radius: 78px;
+  transition: all 0.2s linear;
+  border: 1px solid #cb2aef;
+}
+
+@media (min-width: 575.99px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 14px;
+    --fs-md: 18px;
+    --fs-xl: 16px;
+    --fs-3xl: 30px;
+    --fs-4x8l: 48px;
+    --fs-7xl: 47px;
+    --lh-20: 20px;
+    --lh-27: 27px;
+    --lh-30: 30px;
+    --lh-80: 80px;
+    --lh-155: 155%;
+  }
+}
+@media (min-width: 767.99px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 14px;
+    --fs-md: 18px;
+    --fs-xl: 16px;
+    --fs-3xl: 30px;
+    --fs-4x8l: 48px;
+    --fs-7xl: 60px;
+    --lh-20: 20px;
+    --lh-27: 27px;
+    --lh-30: 30px;
+    --lh-80: 80px;
+    --lh-155: 155%;
+  }
+}
+@media (min-width: 991.99px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 12px;
+    --fs-md: 18px;
+    --fs-xl: 16px;
+    --fs-3xl: 30px;
+    --fs-4x8l: 48px;
+    --fs-7xl: 70px;
+    --lh-20: 20px;
+    --lh-27: 27px;
+    --lh-30: 30px;
+    --lh-80: 80px;
+    --lh-155: 155%;
+  }
+}
+@media (min-width: 1199.99px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-xl: 16px;
+    --fs-3xl: 30px;
+    --fs-4x8l: 48px;
+    --fs-7xl: 70px;
+    --lh-20: 20px;
+    --lh-27: 27px;
+    --lh-30: 30px;
+    --lh-80: 80px;
+    --lh-155: 155%;
+  }
+  .min_vh_100 {
+    min-height: 100vh;
+  }
+}
+@media (min-width: 1400px) {
+  :root {
+    --fs-xsm: 14px;
+    --fs-sm: 16px;
+    --fs-md: 18px;
+    --fs-xl: 16px;
+    --fs-3xl: 30px;
+    --fs-4x8l: 48px;
+    --fs-7xl: 70px;
+    --lh-20: 20px;
+    --lh-27: 27px;
+    --lh-30: 30px;
+    --lh-80: 80px;
+    --lh-155: 155%;
+  }
+  .container {
+    max-width: 1140px !important;
+  }
+}
